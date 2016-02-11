@@ -17,7 +17,7 @@ namespace DesyatkovIlyaTask_07
             {
                 list.Enqueue(list.Dequeue()); 
                 list.Dequeue();
-            }
+            } 
         }
     }
 }
