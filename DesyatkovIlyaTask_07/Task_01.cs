@@ -15,7 +15,7 @@ namespace DesyatkovIlyaTask_07
 
             while (list.Count != 1)
             {
-                list.Enqueue(list.Dequeue());
+                list.Enqueue(list.Dequeue()); 
                 list.Dequeue();
             }
         }
