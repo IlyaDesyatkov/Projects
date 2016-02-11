@@ -10,8 +10,8 @@ namespace DesyatkovIlyaTask_07
     {
         public static void Main(string[] args)
         {
-            int[] listPerson = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            Queue<int> list = new Queue<int>(listPerson);
+            int[] listp = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            Queue<int> list = new Queue<int>(listp);
 
             while (list.Count != 1)
             {
